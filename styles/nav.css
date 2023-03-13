@@ -1,0 +1,20 @@
+.nav-content{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    height: 100%;
+    display: flex;
+}
+
+.nav-links a button{
+    background: none;
+    border: 0;
+}
+
+.nav-links a button[active]{
+    font-weight: bold;
+}
